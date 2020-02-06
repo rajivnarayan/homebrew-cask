@@ -8,5 +8,6 @@ cask 'double-commander-qt' do
   name 'Double Commander Qt'
   homepage 'https://doublecmd.sourceforge.io/'
 
+  # Renamed to avoid confict with the Cocoa version.
   app 'Double Commander.app', target: 'Double Commander Qt.app'
 end
